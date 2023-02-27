@@ -4,26 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
-<style>
-
-  #list {
-    list-style: none;
-    padding: 0;
-  }
-</style>
-
+    <style>
+      #list {
+        list-style: none;
+        padding: 0
+      }
+    </style>
   </head>
   <body>
-  <form id="new-task-form">
-   <input type="text" id="new-task-text">
-    
-
-    <button type ="submit">Add</button>
-
+    <form id="new-task-form">
+      <input type="text" id="new-task-title">
+      <button type="submit">Add</button>
+    </form>
     <ul id="list"></ul>
-
-   </form>
-    <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
